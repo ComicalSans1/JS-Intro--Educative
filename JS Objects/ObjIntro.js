@@ -1,17 +1,18 @@
 const italian = {
-    pizza: "pi",
-    pasta: "pa",
-    hQIHDFILH: "hQ",
+    piz: "pizza",
+    pa: "pasta",
     strength: "olive oil",
 
     attack() {
         return "the italian is now armed with a spaghetti cannon, youre gonna die";
-    }
+    },
+    defend() {
+        return `The italian is now equipped with a ${this.piz} shield, youre dead`;
+    },
 }
-
-console.log(italian.hQIHDFILH);
 
 italian.mammamia = "italian";
 
 console.log(italian.mammamia);
 console.log(italian.attack());
+console.log(italian.defend());
