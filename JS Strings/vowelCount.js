@@ -6,11 +6,10 @@ function vowels(str) {
         for (var j of vowelList) {
             if (i === j) {
                 num++;
-                console.log(j);
             }
         }
     }
     return num;
 }
 
-console.log(vowels("do you have severely lacking self worth? cause i do ;D"));
+console.log(vowels("do you have severely lacking self worth? cause i do"));
