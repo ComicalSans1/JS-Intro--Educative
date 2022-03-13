@@ -5,7 +5,6 @@ class Account{
     }
     credit(val) {
         this.balance += val; 
-        return val;
     }
     describe() {
         return `Name: ${this.name} \nbalance: ${this.balance}`;
